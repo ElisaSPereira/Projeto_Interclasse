@@ -1,0 +1,27 @@
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .table-container th,
+  .table-container td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .table-container th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .table-container td img {
+    width: 50px;
+    height: auto;
+  }
+  
+  /* Adiciona um efeito de hover nas células da tabela */
+  .table-container tbody tr:hover {
+    background-color: #f1f1f1;
+  }

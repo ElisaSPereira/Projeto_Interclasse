@@ -1,0 +1,23 @@
+
+  
+  .banner{
+    display: flex;
+    flex-direction: row;
+    width:1536px;
+    height: 527px;
+  }
+
+  .t1{
+    color: white;
+    background-color: #A93333;
+    width: 620px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 80px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  
+  }
+
+  .grupos{
+    text-align: center;
+  }

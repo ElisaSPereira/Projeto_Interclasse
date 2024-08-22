@@ -1,0 +1,42 @@
+.container1E{
+  background-color: #A93333;
+  
+}
+
+
+
+.banner2{
+  background-color: #A93333;
+  display: flex;
+  flex-direction: row;
+}
+
+.containerE{
+  margin-top: 60x;
+  gap: 40px;
+  flex-wrap: wrap;
+  display: flex;
+  align-content: stretch;
+ justify-content: center;
+}
+
+.logo-teste{
+  width:250px;
+  height:200px;
+  display: flex;
+  justify-items: center;
+margin-bottom: 18px;
+}
+.image{
+  border-radius: 20px;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  transition: transform 0.3s ease;
+  border: none;
+  
+}
+
+.image:hover {
+  transform: translateY(-30px);
+}
+
+

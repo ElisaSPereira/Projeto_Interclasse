@@ -1,0 +1,51 @@
+.podium-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Ajuste conforme necessário */
+  }
+  
+  .podium {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Ajuste conforme necessário */
+    height: 100px; /* Ajuste conforme necessário */
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute; /* Permite posicionar caixas relativas ao contêiner */
+  }
+  
+  .gold {
+    background-color: gold;
+    z-index: 3;
+    transform: scale(1.2); /* Ajuste o tamanho se necessário */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(7%) scale(1.2); /* Ajusta para garantir centralização */
+    margin-left: -50px ;
+  }
+  
+  .silver {
+    background-color: silver;
+    z-index: 2;
+    transform: scale(1); /* Ajuste o tamanho se necessário */
+    left: calc(50% - 120px); /* Ajuste conforme o tamanho das caixas e espaço desejado */
+    margin-left: -80px;
+  }
+  
+  .bronze {
+    background-color: #cd7f32;
+    z-index: 1;
+    transform: scale(0.8); /* Ajuste o tamanho se necessário */
+    left: calc(50% + 120px); /* Ajuste conforme o tamanho das caixas e espaço desejado */
+    margin-left: -10px;
+  }
+  

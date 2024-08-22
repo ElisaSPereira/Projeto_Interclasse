@@ -1,0 +1,16 @@
+.flag-table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .flag-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .flag {
+    width: 100px;
+    height: auto;
+  }

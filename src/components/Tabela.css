@@ -1,0 +1,40 @@
+/* Estilização geral da tabela */
+table {
+    width: 60%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    font-family: "Manrope", sans-serif;
+    
+  }
+  
+  /* Estilização das células do cabeçalho */
+  thead th {
+    background-color: #A93333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  /* Estilização das células do corpo da tabela */
+  tbody td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Estilização das linhas do corpo da tabela */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilização para as imagens das bandeiras */
+  tbody td img {
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 3px;
+  }
+  

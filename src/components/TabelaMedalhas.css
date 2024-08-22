@@ -1,0 +1,40 @@
+/* Estilização da tabela */
+.tabela-medalhas {
+    width: 70%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    font-family: "Manrope", sans-serif;
+  }
+  
+  /* Estilização do cabeçalho */
+  .tabela-medalhas thead th {
+    background-color: #A93333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+  
+  }
+  
+  /* Estilização das células do corpo */
+  .tabela-medalhas tbody td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Alternância de cores para linhas */
+  .tabela-medalhas tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilização dos ícones das medalhas */
+  .icone-medalha {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+  }
+  

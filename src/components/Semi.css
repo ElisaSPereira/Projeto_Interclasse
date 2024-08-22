@@ -1,0 +1,13 @@
+.question-mark-table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .question-mark-table td {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }

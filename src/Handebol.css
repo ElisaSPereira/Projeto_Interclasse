@@ -1,0 +1,23 @@
+
+  
+  .banner{
+    display: flex;
+    flex-direction: row;
+    width:1536px;
+    height: 527px;
+  }
+
+  .t1{
+    color: white;
+    background-color: #A93333;
+    border-radius: 10px;
+    margin-top: 80px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    font-family: "Manrope", sans-serif;
+  
+  }
+
+  .grupos{
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+  }
