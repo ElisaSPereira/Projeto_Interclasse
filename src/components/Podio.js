@@ -6,8 +6,8 @@ const Podium = () => {
     <div className="podium-container">
     <div className="podium">
       <div className="box bronze">3º</div>
-      <div className="box silver">2º</div>
       <div className="box gold">1º</div>
+      <div className="box silver">2º</div>
     </div>
   </div>
 );

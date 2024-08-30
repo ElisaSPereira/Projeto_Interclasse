@@ -1,79 +1,85 @@
-.container1{
-    background-color: #A93333;
-    height: 745px;
-    
-  }
- 
-  
-  .banner2{
-    background-color: #A93333;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .centro{
-    display: flex;
-    margin-top: 30px;
-    align-items: stretch;
-    justify-content: center;
-    
-  }
+.container1 {
+  background-color: #A93333;
+  height: 745px;
 
-  .logo1{
-    width:650px;
-    height:530px;
-    margin-top: 20px;
-    
-    
-  
-  }
+}
 
-  @media screen and (max-width: 1000px) {
-    .logo1{
-      display: none;
-    }
-  }
-  .h1{
-    font-size: 40px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-top: -50px;
-    
-    
-  }
 
-  .btnD{
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    width: 350px;
-    height: 50px;
-    margin-left: 50px;
-    margin-right: 10px;
-    border-radius: 15px;
-    text-decoration: none;
-    padding: 6px 20px;
-    margin-top: 20px;
-    box-shadow: rgb(52, 6, 6) 0px 20px 20px -10px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    align-items: center;
-   
-  }
-  .lista{
-    margin-top: 90px;
-    display: flex;
-    flex-direction: column;
-  }
+.banner2 {
+  background-color: #A93333;
+  display: flex;
+  flex-direction: row;
+}
 
-  .seta{
-    width: 50px;
-    height: 50px;
-    
-  }
+.centro {
+  display: flex;
+  margin-top: 30px;
+  align-items: stretch;
+  justify-content: center;
+
+}
+
+.logo1 {
+  width: 650px;
+  height: 530px;
+  margin-top: 20px;
 
 
 
-  
-  
+}
+
+@media screen and (max-width: 1000px) {
+  .logo1 {
+    display: none;
+  }
+}
+
+.h1 {
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: -50px;
+
+
+}
+
+.btnD {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  width: 350px;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 10px;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 6px 20px;
+  margin-top: 20px;
+  box-shadow: rgb(52, 6, 6) 0px 20px 20px -10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+
+}
+
+@media screen and (max-width: 600px) {
+  .btnD {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}
+
+.lista {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.seta {
+  width: 50px;
+  height: 50px;
+
+}
