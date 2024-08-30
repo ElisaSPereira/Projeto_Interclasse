@@ -3,7 +3,8 @@
   .banner{
     display: flex;
     flex-direction: row;
-    width:1536px;
+    width:100%;
+    object-fit: cover;
     height: 527px;
   }
 
